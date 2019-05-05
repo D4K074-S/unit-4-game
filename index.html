@@ -3,22 +3,27 @@
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
     <h1 class="title">Crystal Collector</h1>
 </header>
-<div id="randomNum"></div>
-<div id="currentNum"></div>
+<div>Guess the number below by adding the crystals!</div>
+    
+<div>
+    <div class="randomNum"></div>
+</div>
+
+<div class="currentNum"></div>
 <div class="crystalPics">
-    <img src="assets/images/crystal1.png">
-    <img src="assets/images/crystal2.png">
-    <img src="assets/images/crystal3.png">
-    <img src="assets/images/crystal4.png">
+    <img id="crystal1" src="assets/images/crystal1.png">
+    <img id="crystal2" src="assets/images/crystal2.png">
+    <img id="crystal3" src="assets/images/crystal3.png">
+    <img id="crystal4" src="assets/images/crystal4.png">
 </div>
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

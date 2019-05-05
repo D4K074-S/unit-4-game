@@ -8,7 +8,18 @@ img {
     width: 100px;
 }
 
+div {
+    text-align: center;
+}
+
 .crystalPics {
     box-align: center;
     padding-left: 520px;
+}
+
+.currentNum {
+    width: 500px;
+    background: gray;
+    height: 300px;
+    
 }
